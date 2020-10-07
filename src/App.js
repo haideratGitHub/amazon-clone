@@ -10,12 +10,12 @@ function App() {
     //BEM notation for naming convention
     <Router>
       <div className="App">
+        <Header></Header>
         <Switch>
           <Route path="/checkout">
             <Checkout></Checkout>
           </Route>
           <Route path="/">
-            <Header></Header>
             <Home></Home>
           </Route>
         </Switch>
